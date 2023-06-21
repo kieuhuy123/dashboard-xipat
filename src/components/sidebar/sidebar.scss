@@ -1,0 +1,23 @@
+.menu-wrapper {
+  display: none;
+  width: 290px;
+  min-width: 290px;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 7;
+  height: 100%;
+  padding-bottom: 68px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgb(17, 25, 42);
+  box-shadow: none;
+
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+.list-container {
+  @media screen and (min-width: 1280px) {
+    margin-left: 290px;
+  }
+}
