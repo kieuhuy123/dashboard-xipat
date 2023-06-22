@@ -6,13 +6,13 @@ import Settings from './pages/settings/Settings'
 import SubscriptionChart from './pages/subscription/Subscription'
 import RevenueChart from './pages/revenue/Revenue'
 import Sidebar from './components/sidebar/Sidebar'
-
+import Layout from './layouts/Layout'
 function App () {
   return (
     <div className='App'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Sidebar />}>
+          <Route path='/' element={<Layout />}>
             <Route path='dashboard' element={<Dashboard />}>
               <Route path='subscription' element={<SubscriptionChart />} />
               <Route path='revenue' element={<RevenueChart />} />

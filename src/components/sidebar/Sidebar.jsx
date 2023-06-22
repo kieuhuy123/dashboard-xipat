@@ -45,20 +45,6 @@ const Sidebar = () => {
           </Box>
         </List>
       </Box>
-
-      <Box
-        sx={{
-          position: 'relative',
-          zIndex: 5,
-          display: 'block',
-          flex: 1
-        }}
-        className='list-container'
-      >
-        <Box display='block'>
-          <Outlet />
-        </Box>
-      </Box>
     </>
   )
 }
